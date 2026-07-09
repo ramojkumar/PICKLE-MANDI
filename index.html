@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pickle Mandi</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+
+🥭 Pickle <span>Mandi</span>
+
+</div>
+
+<ul class="nav-links">
+
+<li><a href="#home">Home</a></li>
+<li><a href="#products">Products</a></li>
+<li><a href="#reviews">Reviews</a></li>
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+<div class="nav-icons">
+
+<button id="darkModeBtn">
+
+<i class="fa-solid fa-moon"></i>
+
+</button>
+
+<button id="cartBtn">
+
+<i class="fa-solid fa-cart-shopping"></i>
+
+<span id="cartCount">0</span>
+
+</button>
+
+</div>
+
+</nav>
+
+</header>
+
+<section class="hero" id="home">
+
+<div class="hero-text">
+
+<h1>
+
+Authentic Homemade Pickles
+
+</h1>
+
+<p>
+
+Traditional Andhra Pickles, Podulu & Non-Veg Pickles
+
+</p>
+
+<a href="#products" class="shop-btn">
+
+Shop Now
+
+</a>
+
+</div>
+
+<div class="hero-image">
+
+ <img src="images/hero.jpeg" alt="Pickle Mandi Hero">
+
+</div>
+
+</section>
+
+<section class="search-section">
+
+<input
+
+type="text"
+
+id="search"
+
+placeholder="Search products...">
+
+</section>
+
+<section class="categories">
+
+<button class="category active">
+
+All
+
+</button>
+
+<button class="category">
+
+Pickles
+
+</button>
+
+<button class="category">
+
+Podulu
+
+</button>
+
+<button class="category">
+
+Non Veg
+
+</button>
+
+</section>
+
+<section id="products">
+
+<div id="productContainer">
+
+<!-- Products loaded from products.js -->
+
+</div>
+
+</section>
+
+<section id="cartSection">
+
+<h2>
+
+Shopping Cart
+
+</h2>
+
+<div id="cartItems">
+
+Your cart is empty.
+
+</div>
+
+<div class="cart-total">
+
+Total ₹
+
+<span id="totalPrice">
+
+0
+
+</span>
+
+</div>
+
+<button id="checkoutBtn">
+
+Proceed to Checkout
+
+</button>
+
+</section>
+
+<section id="checkout">
+
+<h2>
+
+Checkout
+
+</h2>
+
+<input
+
+type="text"
+
+id="customerName"
+
+placeholder="Full Name">
+
+<input
+
+type="tel"
+
+id="customerPhone"
+
+placeholder="Phone Number">
+
+<textarea
+
+id="customerAddress"
+
+placeholder="Address"></textarea>
+
+<select id="payment">
+
+<option>
+
+Cash on Delivery
+
+</option>
+
+<option>
+
+UPI
+
+</option>
+
+</select>
+
+<button id="whatsappOrder">
+
+Order on WhatsApp
+
+</button>
+
+</section>
+
+<section id="reviews">
+
+<h2>
+
+Customer Reviews
+
+</h2>
+
+<div class="review">
+
+⭐⭐⭐⭐⭐ Amazing Pickles!
+
+</div>
+
+<div class="review">
+
+⭐⭐⭐⭐⭐ Best Homemade Taste.
+
+</div>
+
+</section>
+
+<section id="faq">
+
+<h2>
+
+FAQ
+
+</h2>
+
+<details>
+
+<summary>
+
+Do you deliver across India?
+
+</summary>
+
+<p>
+
+Yes.
+
+</p>
+
+</details>
+
+<details>
+
+<summary>
+
+Which payment methods are available?
+
+</summary>
+
+<p>
+
+UPI & Cash on Delivery.
+
+</p>
+
+</details>
+
+</section>
+
+<section id="contact">
+
+<h2>
+
+Contact Us
+
+</h2>
+
+<p>
+
+📞 +91 98765 43210
+
+</p>
+
+<p>
+
+✉ picklemandi27@gmail.com
+
+</p>
+
+<p>
+
+📍 Ashok Nagar, Anantapur
+
+</p>
+
+<iframe
+
+src="https://www.google.com/maps?q=Anantapur&output=embed">
+
+</iframe>
+
+</section>
+
+<footer>
+
+© 2026 Pickle Mandi
+
+</footer>
+
+<script src="products.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
